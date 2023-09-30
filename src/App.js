@@ -44,6 +44,7 @@ const App =()=> {
         <Route exact path='/business'element={<News api = {api} setProgress={setProgress}  key="business" country ='in' pageNumber={15} category="business" mode={mode}/>}></Route>       
         <Route exact path='/entertainment'element={<News api = {api} setProgress={setProgress}  key="entertainment" country ='in' pageNumber={15} category="entertainment" mode={mode}/>}/>
         <Route exact path='/fitness'element={<News api = {api} setProgress={setProgress}  key="fitness" country ='in' pageNumber={15} category="fitness" mode={mode}/>}/>
+        <Route exact path='/gaming'element={<News api = {api} setProgress={setProgress}  key="gaming" country ='in' pageNumber={15} category="gaming" mode={mode}/>}/>
         </Routes>    
         </Router>
       </div>
