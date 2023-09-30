@@ -43,6 +43,7 @@ const App =()=> {
         <Route exact path='/technology'element={<News api = {api} setProgress={setProgress} skey="technology" country ='in' pageNumber={15} category="technology" mode={mode}/>}/>
         <Route exact path='/business'element={<News api = {api} setProgress={setProgress}  key="business" country ='in' pageNumber={15} category="business" mode={mode}/>}></Route>       
         <Route exact path='/entertainment'element={<News api = {api} setProgress={setProgress}  key="entertainment" country ='in' pageNumber={15} category="entertainment" mode={mode}/>}/>
+        <Route exact path='/fitness'element={<News api = {api} setProgress={setProgress}  key="fitness" country ='in' pageNumber={15} category="fitness" mode={mode}/>}/>
         </Routes>    
         </Router>
       </div>
