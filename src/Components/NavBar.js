@@ -66,6 +66,11 @@ export default class NavBar extends Component {
                     Fitness
                   </Link>
                 </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/">
+                    Gaming
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className="form-check form-switch">
